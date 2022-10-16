@@ -1,0 +1,147 @@
+/* universal element */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+/* element selectors */
+
+header {
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #030564;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    background-color: #c8cac6; 
+    
+}
+
+/* HEADERS */
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-family: serif;
+    padding-right:20px;
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 25px;
+    font-family: sans-serif;
+    
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background-color: #010111;
+    justify-content: space-around;
+    border-top: #c8cac6 solid 1px;
+}
+
+nav a {
+    color: antiquewhite;
+    font-size: 28px;
+}
+
+nav ul { 
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+nav li { 
+    display: inline-block;
+    margin-left: 25px;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+div {
+    display: block;
+}
+
+
+
+p {
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid #000000;
+    position: static;
+    bottom: 0%;
+    right: 0%;
+    width: 100%;
+    background-color: #010111 ;
+    color: antiquewhite;
+    z-index: 1;
+}
+
+/* class selectors */
+
+.box {
+    box-sizing: border-box;
+    width: 92%;
+    margin: 20px 50px 20px 50px;
+    padding: 30px;
+    background-color: #24232396;
+    color: #000000;
+    border: #000000 solid 1px;
+}
+
+/* background img */
+
+.background-img {
+    height: 200px;
+    width: 100%;
+    background-image: url(./images/coding-banner.webp);
+    background-size: cover;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* ID Selectors */
+
+#About-Me {
+    
+}
+
+/* media queries */
+
+@media screen and (max-width: 320px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
