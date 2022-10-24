@@ -13,14 +13,10 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Screenshot
 
- ![My-Portfolio-2022](./Assets/Images/01-html-css-git-homework-demo.png)
-
+ ![Portfolio-2022](.assets/images/portfolio2022.png)
 ## Link
-https://dfletch12.github.io/Horiseon-Scout-Rule-Project/
+https://dfletch12.github.io/My-Portfolio-2022//
 
-## Credits
-    Original Code from Vanderbilt University Coding bootcamp.
-    https://github.com/coding-boot-camp/urban-octo-telegram
 
 ## License
 See MIT License in Repo.  
