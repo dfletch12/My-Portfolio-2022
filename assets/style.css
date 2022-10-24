@@ -45,6 +45,7 @@ h3 {
     padding-bottom: 10px;
 }
 
+/* nav elements */
 nav {
     display: flex;
     width: 100%;
@@ -56,6 +57,7 @@ nav {
 nav a {
     color: antiquewhite;
     font-size: 28px;
+    text-decoration: none;
 }
 
 nav li { 
@@ -63,16 +65,11 @@ nav li {
     margin-left: 25px;
 }
 
-li {
+.box li {
     list-style-type: none;
     text-align: center;
 }
 
-a {
-    color: #000000;
-    text-decoration: none;
-    
-}
 
 div {
     display: block;
@@ -81,7 +78,7 @@ div {
 p {
     text-align: center;
 }
-
+ /* footer */
 footer {
     border-top: 1px solid #000000;
     position: static;
@@ -92,7 +89,20 @@ footer {
     color: antiquewhite;
     z-index: 1;
 }
+/* image */
+img {
+    display: flex;
+    max-width: 100%;
+    height: auto
+}
 
+section {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    
+    
+}
 /* class selectors */
 
 .box {
@@ -120,12 +130,18 @@ footer {
 
 .text-right {
     text-align: right;
+
 }
+
+
 
 /* ID Selectors */
 
 #portrait {
     padding-bottom: 0px;
+}
+#main-img {
+    width: 100%;
 }
 
 /* media queries */
