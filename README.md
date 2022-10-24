@@ -13,7 +13,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Screenshot
 
- ![Portfolio-2022](.assets/images/portfolio2022.png)
+ ![Portfolio-2022](/assets/images/portfolio2022.png)
 ## Link
 https://dfletch12.github.io/My-Portfolio-2022//
 
